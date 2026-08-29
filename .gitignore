@@ -1,0 +1,22 @@
+bin/
+build/
+*.o
+*.obj
+*.exe
+*.exp
+*.lib
+*.pdb
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# generated analysis outputs
+data/*.png
+data/run*.csv
+data/REPORT.md
+
+# keep these
+!data/.gitkeep
+!data/sample_synthetic.csv
